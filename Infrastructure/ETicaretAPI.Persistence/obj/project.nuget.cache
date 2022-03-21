@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "59rQQfZtuiJzm064YtmRJx/1yREw2xzyNv5JayeGvo6kiU0/az1rlkXwbJDnmy5L8jP3Kzf7/jfX6PjClQVy1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Casper\\Desktop\\OnionArchitecture\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Casper\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
