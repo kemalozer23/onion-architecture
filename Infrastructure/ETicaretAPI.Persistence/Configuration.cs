@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace ETicaretAPI.Persistence
                 ConfigurationManager configurationManager = new();
                 configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../Presentation/ETicaretAPI.API"));
                 configurationManager.AddJsonFile("appsettings.json");
-                return configurationManager.GetString("SqlServer");
+                return configurationManager.GetConnectionString("SqlServer");
             }
         }
     }
